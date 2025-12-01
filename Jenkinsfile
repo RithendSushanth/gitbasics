@@ -11,7 +11,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Running a simple build step..."
-                sh 'echo "Hello from Jenkins Pipeline!"'
             }
         }
 
